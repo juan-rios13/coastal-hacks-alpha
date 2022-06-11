@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Brush Script MT', cursive;
 
 }
 
@@ -51,6 +52,7 @@ main{
     text-align: center;
     background-image: url('./miami.jpg');
     background-size: cover;
+    color: indianred;
 }
 
 #venice{
@@ -68,7 +70,7 @@ main{
   }
   .dropdown-content {
     display: none;
-    background-color: red;
+    background-color: whitesmoke;
     position: absolute;
     width: 100%;
     overflow: auto;
@@ -98,10 +100,14 @@ a{
     font-weight:700;
 }
 
+p{
+  font-size: 24px;
+  color: #025829;
+}
 
 h1{
-    font-weight: 700;
-    font-size:60px;
+    font-weight: 1000;
+    font-size:100px;
     color: black;
     text-align: center;
 }
@@ -120,18 +126,18 @@ ul#episodes {
   button {
     border-radius:  50px;
     border: 0;
-    background: #191414;
-    color: #fff;
-    padding:  10px;
+    background: #025829;
+    color: rgb(210, 240, 75);
+    padding:  8px 16px;
     margin:  0 0 3px 0;
     width: 100%;
+    font-size:  24px;
     cursor: pointer;
   }
 
-  .miami--button {
-    border: none;
-    background: #191414;
-    color: #fff;
+  #miami--button {
+    background: rgb(22, 74, 122);
+    color: indianred;
     padding:  8px 16px;
     font-size:  24px;
     width: 100%;
@@ -141,7 +147,9 @@ ul#episodes {
 
   
 
-
+#miami--font{
+  color: indianred;
+}
 
   button:hover {
     background: #1Db954;
@@ -155,6 +163,28 @@ ul#episodes {
     flex-direction: row-reverse;
 }
 
+#venice--font{
+  color: rgb(14, 158, 134);
+}
 
-
-   
+#venice--button{
+  color: rgb(14, 158, 134);
+  background-color: rgba(110, 73, 73, 0.993);
+  padding:  8px 16px;
+  font-size:  24px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+  #sanfran--font{
+    color: rgb(93, 228, 228);
+  }
+#sanfran--button{
+  color: rgb(93, 228, 228);
+  background-color: rgba(153, 40, 40, 0.993);
+  padding:  8px 16px;
+  font-size:  24px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
